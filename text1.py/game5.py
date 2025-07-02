@@ -21,6 +21,7 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!"""    #python之禅
 print(poetry)
+
 ##列表##
 bicycle=['trek','cannondale','redline','specialized']
 print(bicycle)   #列表表示   []
@@ -81,16 +82,7 @@ asdf.remove(rwtyhf)
 print(asdf)
 print(f"A {rwtyhf.title()} is good.")   
 #!#!#!#remove()方法只删除第一个指定值，如果要删除的值在列表中出现多次。需要用循环，确保除干净#!#!#!#
-#练习4
-invitation=['a','s','d','f','g','h','j','k']
-no_attend=invitation.pop(2)
-print(no_attend)
-invitation[2]='t'
-print(invitation)
-invitation.insert(0,'q')
-invitation.insert(4,'w')
-invitation.append('e')
-print(invitation)
+#练习见game5.appendix_while.py
 
 
       
