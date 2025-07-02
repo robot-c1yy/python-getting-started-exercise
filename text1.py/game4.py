@@ -43,6 +43,5 @@ f_number=666
 message=f"my fevorite number is {f_number}"
 print(message)
 
-### AI,I LOVE ME ###
 
 
