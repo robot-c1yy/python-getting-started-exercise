@@ -14,7 +14,7 @@ guest_list.append('e')
 for guest in guest_list:
  print(f"Dear {guest},I would like to invite you to dinner.")
 print("Sorry,new table can't come intime, I can only invite two people.")
-###删除多余的客人(循环)#!#
+#!#删除多余的客人(循环)#!#
 while len(guest_list)>2:
     removed_guest=guest_list.pop()
     print(f"Sorry,{removed_guest},I can't invite you to dinner.")
