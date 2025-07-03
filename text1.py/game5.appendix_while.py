@@ -1,3 +1,4 @@
+#接game5.py
 ###练习（难）
 guest_list=['a','s','d','f','g','h','j','k','j']
 for guest in guest_list:
