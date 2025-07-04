@@ -113,6 +113,30 @@ print(friend_foods)
 ###练习###
 
 #练习1
+my_foods=['pizza','falafel','carrot cake','chocolate cake','ice cream','cheesecake','pasta']
+print("The irst three items in the list are:")
+print(my_foods[:3])
+print("Three items from the middle of the list are:")
+print(my_foods[2:5])
+print("The last three items in the list are:")
+print(my_foods[-3:])   
+
+#练习2
+my_pizzas=['pepperoni','cheese','veggie','hawaiian','bbq chicken','meat lovers']
+friend_pizzas=my_pizzas[:]
+my_pizzas.append('supreme')
+friend_pizzas.append('buffalo chicken')
+print("My favorite pizzas are:")
+for my_pizza in my_pizzas:
+    print(my_pizza)
+print("\nMy friend's favorite pizzas are:")
+for friend_pizza in friend_pizzas:
+    print(friend_pizza)
+    
+#练习3
+print("My favorite foods are:")
+for my_food in my_foods:
+    print(my_food)
 
 
 
