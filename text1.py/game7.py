@@ -4,7 +4,7 @@ magicians=['alice','david','carolina']
 for magician in magicians:
     print(magician)   #打印名单中所有名字   for ... in ...
     print(f"{magician.title()}, that was a great trick!")
-    print(f"I can't wait to see your nsxt trick,{magician.title()}.\n")   #"\n"使每次循环结束后插入一个空行，将针对各位魔术师的消息编组
+    print(f"I can't wait to see your next trick,{magician.title()}.\n")   #"\n"使每次循环结束后插入一个空行，将针对各位魔术师的消息编组
 print("Everyone ,thank you. That was a great magic show!")   #不需要缩进
 
 ###练习###
@@ -113,6 +113,7 @@ print(friend_foods)
 ###练习###
 
 #练习1
+
 
 
 
