@@ -4,7 +4,8 @@ magicians=['alice','david','carolina']
 for magician in magicians:
     print(magician)   #打印名单中所有名字   for ... in ...
     print(f"{magician.title()}, that was a great trick!")
-    print(f"I can't wait to see your next trick,{magician.title()}.\n")   #"\n"使每次循环结束后插入一个空行，将针对各位魔术师的消息编组
+    print(f"I can't wait to see your next trick,{magician.title()}.\n")   
+    #"\n"使每次循环结束后插入一个空行，将针对各位魔术师的消息编组
 print("Everyone ,thank you. That was a great magic show!")   #不需要缩进
 
 ###练习###
@@ -91,7 +92,7 @@ print(qwer)
 
 ###切片###
 players=['charles','martina','michael','florence','eli']
-print(players[1:4])   #切片   [开始（序数减一）:结束（序数减一）]  注意：结束值不包含在内
+print(players[1:3]) #切片 [开始（序数减一）:结束（序数减一）] 注意：结束值不包含在内
 print(players[:3])   #从开始到指定位置   [:结束（序数减一）]
 print(players[2:])   #从指定位置到末尾   [开始（序数减一）:]
 for player in players[:3]:
@@ -113,7 +114,8 @@ print(friend_foods)
 ###练习###
 
 #练习1
-my_foods=['pizza','falafel','carrot cake','chocolate cake','ice cream','cheesecake','pasta']
+my_foods=['pizza','falafel','carrot cake','chocolate cake','ice cream',
+          'cheesecake','pasta']
 print("The irst three items in the list are:")
 print(my_foods[:3])
 print("Three items from the middle of the list are:")

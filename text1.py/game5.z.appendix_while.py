@@ -2,7 +2,7 @@
 ###练习（难）
 guest_list=['a','s','d','f','g','h','j','k','j']
 for guest in guest_list:
- print(f"Dear {guest}, i would like to invite you to dinner.")   #一个一个邀请客人
+ print(f"Dear {guest}, i would like to invite you to dinner.") #一个一个邀请客人
 can_not=guest_list.pop(2)
 print(f"Sorry,{can_not} can't come to dinner.")
 guest_list[2]='t'

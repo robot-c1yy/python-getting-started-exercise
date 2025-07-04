@@ -13,7 +13,8 @@ print("\nHere is the sorted list:")
 print(sorted(cars))   #按字母顺序排列列表，但不改变原列表      sortsd(~)
 print("\nHere is the original list again:")
 print(cars)
-print(sorted(cars,reverse=True))  #按字母顺序的相反顺序排列列表，但不改变原列表   sortsd(~,reverse=True)
+print(sorted(cars,reverse=True))  
+#按字母顺序的相反顺序排列列表，但不改变原列表   sortsd(~,reverse=True)
 #反向打印列表
 cars=['bmw','audi','toyota','subaru']
 print(cars)

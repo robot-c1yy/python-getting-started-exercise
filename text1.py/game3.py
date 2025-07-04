@@ -47,7 +47,8 @@ print(name2.upper())  #全大写
 print(name2.lower())  #全小写
 print(name2.title())  #开头大写
 ###练习3###
-SAY='Albert Einstein once said,"A persion who never made a mistake never tired anything new."'
+SAY='''Albert Einstein once said,
+    "A persion who never made a mistake nevertired anything new."'''
 print(SAY)  #字符串应用
 ###练习4###
 namee="\tSantty\nHubby\twhatty "

@@ -19,7 +19,7 @@ Now is better than never.
 Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!"""    #python之禅
+Namespaces are one honking great idea -- let's do more of those!""" #python之禅
 print(poetry)
 
 ##列表##
@@ -74,14 +74,15 @@ print(qwer1)   #删除末端元素并返回该元素
 print(asdf)   #删除末端元素  .pop()
 message4=f"You are very {qwer1.title()}."
 print(message4)   #使用已删除的元素
-#!#!#!#!#!# del语句：不用已删除的元素 VS pop()方法：可以使用已删除的元素 #!#!#!#!#!# 
+#!#!#!#!#!# del语句：不用已删除的元素 VS pop()方法：可以使用已删除的元素 #!#!#!#!#
 asdf.remove('ehbu')      #根据值删除元素 .remove('~') 
 print(asdf)
 rwtyhf='aruob'
 asdf.remove(rwtyhf)
 print(asdf)
 print(f"A {rwtyhf.title()} is good.")   
-#!#!#!#remove()方法只删除第一个指定值，如果要删除的值在列表中出现多次。需要用循环，确保除干净#!#!#!#
+#!#!#remove()方法只删除第一个指定值#!#!#
+#!#!#!#如果要删除的值在列表中出现多次,需要用循环，确保除干净#!#!#!#
 #练习见game5.appendix_while.py
 
 
