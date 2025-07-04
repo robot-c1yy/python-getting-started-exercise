@@ -29,5 +29,7 @@ print("The foods are changed:")
 for food in foods:
     print(food)
 
+#看 PEP 8: https://peps.python.org/pep-0008/
+
 
 
