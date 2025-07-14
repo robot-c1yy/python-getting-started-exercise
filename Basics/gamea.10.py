@@ -68,4 +68,39 @@ if requested_toppings:
     print("\nFinished making your pizza!")
 else:
     print("Are you sure you want a plain pizza?")
-  
+
+###练习###
+#练习1
+
+name=['admin','qriny','ztiky','poiuy','chuij']
+for name_a in name:
+    if name_a=='admin':
+        print(f"Hello {name_a.title()},would you like to see a status report?")
+    elif name==[]:
+        print("We need find some users!")
+    else:
+        print(f"Hello {name_a.title()},thank you for logging in again.")
+
+#练习2
+
+current_users=['robot','n_n','ai_ia','CHY','AHY']
+new_users=['robot','CHY','AI_IA','khec','?_?']
+current_users_lower=[user.lower() for user in current_users]
+for new_user in new_users:
+    if new_user.lower() in current_users_lower:
+        print(f"NO, {new_user} have been used.")
+    else:
+        print(f"Successful! {new_user}.") 
+
+#练习3
+
+numbers=['1','2','3','4','5','6','7','8','9']
+for number in numbers:
+    if number=='1':
+        print(f"{number}st")
+    elif number=='2':
+        print(f"\n{number}nd")
+    elif number=='3':
+        print(f"\n{number}rd")
+    else:
+        print(f"\n{number}th")
